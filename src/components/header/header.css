@@ -1,0 +1,10 @@
+.header {
+    width: 48%;
+    padding: 6rem 0;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100vh;
+}

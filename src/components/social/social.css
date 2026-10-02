@@ -1,0 +1,13 @@
+.social {
+    display: flex;
+    gap: 1rem;
+}
+
+.social a span {
+    display: none;
+}
+
+.social svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}

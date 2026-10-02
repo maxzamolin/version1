@@ -1,0 +1,6 @@
+.navbar a {
+    text-decoration: none;
+    padding: 0.75rem 0;
+    display: flex;
+    font-weight: 700;
+}
