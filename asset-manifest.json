@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/version1/static/css/main.522cc925.css",
-    "main.js": "/version1/static/js/main.51e592e7.js",
+    "main.js": "/version1/static/js/main.2ba9f466.js",
     "static/media/onlyloveonline.png": "/version1/static/media/onlyloveonline.a7ec9c54a26fb2f0233c.png",
     "static/media/zamolin-maksim.pdf": "/version1/static/media/zamolin-maksim.8f760dffc698a9ca6ec6.pdf",
     "index.html": "/version1/index.html",
     "main.522cc925.css.map": "/version1/static/css/main.522cc925.css.map",
-    "main.51e592e7.js.map": "/version1/static/js/main.51e592e7.js.map"
+    "main.2ba9f466.js.map": "/version1/static/js/main.2ba9f466.js.map"
   },
   "entrypoints": [
     "static/css/main.522cc925.css",
-    "static/js/main.51e592e7.js"
+    "static/js/main.2ba9f466.js"
   ]
 }
