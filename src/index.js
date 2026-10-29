@@ -8,9 +8,6 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-  },
-  {
-    basename: '/version1', // Указываем подпапку, в которой живёт сайт
   }
 ]);
 
