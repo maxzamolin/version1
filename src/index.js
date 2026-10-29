@@ -9,6 +9,9 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
   },
+  {
+    basename: '/version1', // Указываем подпапку, в которой живёт сайт
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
