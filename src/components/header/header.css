@@ -8,3 +8,14 @@
     justify-content: space-between;
     max-height: 100vh;
 }
+
+@media(max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+  .header {
+    position: static;
+    max-height: none;
+    padding: 0;
+  }
+}

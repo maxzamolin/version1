@@ -1,26 +1,30 @@
-import './navbar.css'
+import './navbar.css';
+import { useLocation } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
+import { useActiveSection } from '../../hooks/useActiveSection';
 
 const Navbar = () => {
+    const activeSection = useActiveSection(['about','experience','projects']);
     return (
         <nav className='navbar'>
             <ul>
                 <li>
-                    <a href="#about">
+                    <NavHashLink className={activeSection == 'about' ? 'selected' : ''} smooth to="/#about">
                         <span></span>
-                        <span>About</span>
-                    </a>
+                        <span>Обо мне</span>
+                    </NavHashLink> 
                 </li>
                 <li>
-                    <a href="#experience">
+                    <NavHashLink className={activeSection == 'experience' ? 'selected' : ''} smooth to="/#experience">
                         <span></span>
-                        <span>Experience</span>
-                    </a>
+                        <span>Опыт работы</span>
+                    </NavHashLink>
                 </li>
                 <li>
-                    <a href="#projects">
+                    <NavHashLink className={activeSection == 'projects' ? 'selected' : ''} smooth to="/#projects">
                         <span></span>
-                        <span>Projects</span>
-                    </a>
+                        <span>Проекты</span>
+                    </NavHashLink>
                 </li>
             </ul>
         </nav>

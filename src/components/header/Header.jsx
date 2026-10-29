@@ -4,11 +4,11 @@ import Social from '../social/Social';
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className="header reveal-item">
           <div>
-            <h1>Max Zamolin</h1>
-            <h2>Frontend Enginer</h2>
-            <p>I build accessible, pixel-perfect experiences for the web.</p>
+            <h1>Максим Замолин</h1>
+            <h2 className="subtitle">Frontend разработчик</h2>
+            <p>Я создаю чистые и адаптивные веб интерфейсы.</p>
             <Navbar />
           </div>
           <Social />
