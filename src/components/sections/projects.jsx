@@ -11,7 +11,7 @@ const Projects = () => {
                     </div>
                     <div className="group-body">
                         <h3>
-                            <a href="https://github.com/maxzamolin/clothing-store" target="_blank">Интернет магазин брэнда одежды</a>
+                            <a href="https://github.com/maxzamolin/clothing-store" target="_blank">Интернет магазин брэнда одежды<span className='inset'></span></a>
                         </h3>
                         <p>
                             Разработка визуальной части магазина по макету из Figma для последующей интеграции в React и с бэком.

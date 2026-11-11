@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className="header reveal-item">
           <div>
-            <h1>Максим Замолин</h1>
+            <h1 className="title">Максим Замолин</h1>
             <h2 className="subtitle">Frontend разработчик</h2>
             <p>Я создаю чистые и адаптивные веб интерфейсы.</p>
             <Navbar />
