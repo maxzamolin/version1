@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/Header';
 import {About, Experience, Projects} from './components/sections';
 import Reveal from './animation/Reveal';
+import AnimatedBackground from "./components/AnimatedBackground/AnimatedBackground";
 
 function App() {
   return (
