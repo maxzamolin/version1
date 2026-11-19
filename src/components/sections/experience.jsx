@@ -1,4 +1,6 @@
 import resume from '../../assets/files/zamolin-maksim.pdf'
+import experience2019 from '../../assets/images/experience/2019-2023.png'
+import experience2023 from '../../assets/images/experience/2023.png'
 
 const Experience = () => {
     return (
@@ -8,6 +10,7 @@ const Experience = () => {
                     <div className='group-hover-bg'></div>
                     <div className="group-header">
                         2023 — Сейчас
+                        <img src={experience2023} alt="2023 — Сейчас" className="experience-image" />
                     </div>
                     <div className="group-body">
                         <h3>Web разработчик</h3>
@@ -27,6 +30,7 @@ const Experience = () => {
                     <div className='group-hover-bg'></div>
                     <div className="group-header">
                         2019 — 2023
+                        <img src={experience2019} alt="2019 — 2023" className="experience-image" />
                     </div>
                     <div className="group-body">
                         <h3>Web разработчик</h3>

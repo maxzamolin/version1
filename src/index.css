@@ -139,9 +139,14 @@ a:hover {
   left: -1.5rem;
 }
 
-.group-header img {
+.group-header img:not(.experience-image) {
   border: 2px solid var(--accent);
   border-radius: 0px;
+}
+
+.group-header .experience-image {
+  height: 100px;
+  margin-top: 8px;
 }
 
 .group-body h3 a:not(:hover) {
